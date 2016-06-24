@@ -1,0 +1,19 @@
+{
+  "name": "openbci-narcolepsy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigulyas/openbci-narcolepsy.git"
+  },
+  "author": "Daniel Gulyas <hello@danielgulyas.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danigulyas/openbci-narcolepsy/issues"
+  },
+  "homepage": "https://github.com/danigulyas/openbci-narcolepsy#readme"
+}
