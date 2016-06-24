@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danigulyas/openbci-narcolepsy/issues"
   },
-  "homepage": "https://github.com/danigulyas/openbci-narcolepsy#readme"
+  "homepage": "https://github.com/danigulyas/openbci-narcolepsy#readme",
+  "dependencies": {
+    "openbci-sdk": "^0.3.7"
+  }
 }
