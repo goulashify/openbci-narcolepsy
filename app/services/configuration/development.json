@@ -1,0 +1,8 @@
+{
+	"board": {
+		"configuration": {
+			"simulate": true
+		},
+		"cacheSize": 1000
+	}
+}

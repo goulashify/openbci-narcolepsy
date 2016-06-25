@@ -1,18 +1,8 @@
-var OpenBCIBoard = require('openbci-sdk');
-var ourBoard = new OpenBCIBoard.OpenBCIBoard({verbose:true});
+var IoC = require('electrolyte');
+// var container = new electrolyte.Container();
 
-ourBoard.autoFindOpenBCIBoard()
-		.then(function(portName) { return ourBoard.connect(portName) })
-		.then(function connectToBoard() {
-			ourBoard.on('ready',function() {
-				ourBoard.streamStart();
-				ourBoard.on('sample', checkSample);
-			});
-		})
-		.catch(function (ex) {
-			console.log('error:', ex);
-		});
 
-function checkSample(data) {
-	console.log('data found:', data);
-}
+// IoC.use(electrolyte.dir('services'));
+IoC.use(IoC.dir(__dirname + '/services'));
+
+var sm = IoC.create('analysis');

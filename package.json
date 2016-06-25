@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/danigulyas/openbci-narcolepsy#readme",
   "dependencies": {
-    "openbci-sdk": "^0.3.7"
+    "electrolyte": "^0.2.6",
+    "lodash": "^4.13.1",
+    "openbci-sdk": "^0.3.7",
+    "pubsub-js": "^1.5.3",
+    "timeseries-analysis": "^1.0.12"
   }
 }
