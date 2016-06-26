@@ -19,6 +19,7 @@
   "dependencies": {
     "electrolyte": "^0.2.6",
     "lodash": "^4.13.1",
+    "node-pushover": "^0.2.2",
     "openbci-sdk": "^0.3.7",
     "pubsub-js": "^1.5.3",
     "timeseries-analysis": "^1.0.12"

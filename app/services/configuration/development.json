@@ -4,5 +4,9 @@
 			"simulate": true
 		},
 		"cacheSize": 1000
+	},
+	"pushover": {
+		"appKey": "acc2g9gzzfwpj6caozweyeuzh6ci4k",
+		"userKey": "u8gnndxzr4k9kbo8egjetfcyrqcabo"
 	}
 }
